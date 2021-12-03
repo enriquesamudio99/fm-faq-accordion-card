@@ -125,8 +125,13 @@ body {
 }
 
 .img {
-    overflow: hidden;
     position: relative;
+}
+
+@media (min-width: 1200px) {
+    .img {
+        overflow: hidden;
+    }
 }
 
 .content {
